@@ -31,7 +31,7 @@ public class MainLevel1 {
         resultEx2.forEach(System.out::println);
 
         System.out.println("\n----------Exercise 3----------");
-        ArrayList<String> months = new ArrayList<>();
+       ArrayList<String> months = new ArrayList<>();
         months.add("January");
         months.add("February");
         months.add("March");
@@ -45,7 +45,7 @@ public class MainLevel1 {
         months.add("November");
         months.add("December");
 
-        months.forEach(System.out::println);
+        months.forEach(month -> System.out.println(month));
 
         System.out.println("\n----------Exercise 4----------");
         String[] months_arr = new String[]{"January", "February", "March", "April", "May", "June", "July",
